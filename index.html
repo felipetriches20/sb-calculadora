@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main class="app__wrapper"> <!--conteudo principal-->
+       <h1>Calculadora</h1>
+       <form>
+          <div class="form-group">
+              <label for="valor1">Valor 1</label>
+              <input type="tel" name="" id="valor1">
+            </div>
+
+            <div class="form-group">
+              <label for="valor2">Valor 2</label>
+              <input type="tel" name="" id="valor2">
+            </div>
+
+            <div class="btn__wrapper">
+                <div>
+                    <button type="button" class="btn__operation">
+                        Somar
+                    </button>
+                </div>
+                <div>
+                    <button type="button"class="btn__operation" >
+                        Subtrair
+                    </button>
+                </div>
+                <div>
+                    <button type="button" class="btn__operation">
+                        Multiplicar
+                    </button>
+                </div>
+                <div>
+                    <button type="button" class="btn__operation">
+                        Dividir
+                    </button>
+                </div>
+
+            </div>
+       </form>
+       <div class="resultado" id="resultado"></div>
+    </main>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
